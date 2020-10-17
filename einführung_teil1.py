@@ -13,7 +13,14 @@ alter = 12
 punkte = 140
 
 # es gibt noch viele andere Werte die man in Variablen speichern kann. Auf diese gehen wir zu einem späteren Zeitpunkt ein.
+# Hier ist ein Beispiel für boolsche Werte, diese haben den Wert True oder False (Deutsch: wahr oder falsch). Das Ergebnis
+# eines Vergleichs ist ist immer ein boolsche Wert.
+test =  alter < 100 # da der Variable alter vorher 12 zugewiesen wurde ist diese Vergleich gleich True
+print(test) # hier wird True auf dem Bildschirm ausgegeben.
+print(type(test)) # mit dem type(...)-Befehl kann man den Typ eines Wertes ermitteln. Du kannst diesen für andere dir bekannte Werte ausprobieren.
 
+print(type(punkte))
+print(type(name))
 
 
 # Eine Ausgabe auf Console in Python wird mit print()-Befehl gemacht.
