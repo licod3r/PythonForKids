@@ -27,7 +27,7 @@ else:
 
 # Ebenfalls oft will man mehrere Fälle (statt einer mehrere Bedinungen testen) unterscheiden und im Programm ganz verschieden behandeln.
 # hier ist ein Beispiel, bei dem die Farbe überprüft wird. Dabei wird für jede Farbe eine eigene Ausgabe auf dem Bildschirm gemacht.
-farbe = "blau"
+farbe = input("Nenne mir eine Farbe ... ")
 if farbe == "gelb":
     print("Ich mag diese Farbe am liebsten! BVB!!!")
 elif farbe == "grün":
